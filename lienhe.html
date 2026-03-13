@@ -9,12 +9,23 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">VHDT</div>
-            <ul>
+        <nav class="container">
+            <div class="logo-box">
+                <a href="index.html">
+                    <img src="unnamed.jpg" alt="VHDT SNEAKER" class="logo-img">
+                    <span class="logo-text">VHDT<span>SNEAKER</span></span>
+                </a>
+            </div>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="nav-menu">
                 <li><a href="index.html">Trang Chủ</a></li>
-                <li><a href="#">Sản Phẩm</a></li>
-                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="sanpham.html">Sản Phẩm</a></li>
+                <li><a href="gthieu.html">Giới Thiệu</a></li>
                 <li><a href="lienhe.html" class="active">Liên Hệ</a></li>
             </ul>
         </nav>
@@ -24,7 +35,7 @@
         <section class="contact-section">
             <div class="contact-info">
                 <h2>KẾT NỐI VỚI VHDT</h2>
-                <p>"Bước chân phong cách, khẳng định bản sắc".</p>
+                <p>"Bước chân phong cách, khẳng định bản sắc"[cite: 27].</p>
                 
                 <div class="info-item">
                     <i class="fas fa-phone-alt"></i>
@@ -32,7 +43,7 @@
                 </div>
                 <div class="info-item">
                     <i class="fas fa-envelope"></i>
-                    <span>Email: Locthan2002@gmail.com [cite: 5]</span>
+                    <span>Email: Locthan2002@gmail.com </span>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-map-marker-alt"></i>
@@ -47,7 +58,8 @@
             </div>
 
             <div class="contact-form-container">
-                <form class="order-form"> <h3>GỬI LỜI NHẮN</h3>
+                <form class="order-form"> 
+                    <h3>GỬI LỜI NHẮN</h3>
                     <div class="input-group">
                         <input type="text" placeholder="Họ và tên của bạn" required>
                     </div>
@@ -62,5 +74,9 @@
             </div>
         </section>
     </main>
+
+    <footer style="text-align: center; padding: 40px; color: #555; font-size: 0.8rem;">
+        <p>&copy; 2026 VHDT Sneaker - Đề tài: Web bán giày VHDT </p>
+    </footer>
 </body>
 </html>
